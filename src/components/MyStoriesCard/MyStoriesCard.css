@@ -1,0 +1,26 @@
+.textColor {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: orange;
+
+}
+
+.titulo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.eachCard {
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin: auto;
+    border: 2px solid gray;
+    max-height: 300px;
+    max-width: 300px !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}

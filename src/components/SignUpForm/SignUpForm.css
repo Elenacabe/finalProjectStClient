@@ -1,0 +1,25 @@
+.custom-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.custom-input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.custom-button {
+    margin-top: 10px;
+    transition: background-color 0.3s ease
+}
+
+
+.custom-button:hover {
+    background-color: #8a1d8e;
+    color: orange;
+
+}

@@ -1,0 +1,32 @@
+.eachElemento {
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(158, 152, 152);
+    border-radius: 5px;
+    display: block;
+    padding: 20px 10px;
+
+}
+
+.textColor {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.userCard {
+    margin: 5px;
+    max-width: 95%;
+    background-color: white;
+    box-shadow: 3px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+img {
+    max-width: 95%;
+    margin: 10px 10px 10px 10px;
+}

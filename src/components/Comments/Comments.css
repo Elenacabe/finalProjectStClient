@@ -1,0 +1,96 @@
+.main-container {
+    height: 80vh;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.profile-button {
+    height: 30px;
+    width: 80px;
+    background-color: orange;
+    color: white;
+    font-size: 1.05rem;
+    border-radius: 15px !important;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.delete-button {
+
+    height: 30px;
+    width: 80px;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    font-size: 1.05rem;
+    border-radius: 5px;
+    border: 1px solid white
+}
+
+.comment-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comment-text {
+    margin: 12px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.input-box {
+    height: 75px;
+    width: 465px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.comment-button {
+    height: 40px;
+    width: 80px;
+    background-color: orange;
+    color: white;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid white
+}
+
+.comments-section {
+    height: 30vh;
+    padding: 3px;
+    overflow-y: auto;
+    border: 1px solid black;
+    box-shadow: 12px 12px 2px 1px #818283;
+    border-radius: 10px;
+}
+
+.comment-container {
+
+    max-height: 40px;
+    width: 455px;
+    text-align: left;
+    overflow-y: auto;
+    color: black;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin: 10px 5px;
+    word-break: break-all;
+}
+
+.commentContainer {
+    max-height: 40px;
+    width: 455px;
+    text-align: right;
+    overflow-y: auto;
+    color: black;
+    background-color: #9fc4e9;
+    border-radius: 5px;
+    margin: 10px 5px;
+    word-break: break-all;
+}

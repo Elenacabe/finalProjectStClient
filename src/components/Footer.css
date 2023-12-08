@@ -1,0 +1,12 @@
+.foot {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    justify-content: center;
+    background-color: gray;
+    font-family: Menlo, monospace;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+}

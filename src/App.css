@@ -1,0 +1,29 @@
+.ownRow {
+    margin-top: 40px;
+    align-items: center;
+}
+
+.ownCol {
+    margin-top: 60px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ownCol h1 {
+    color: orange;
+    font-size: 40px;
+}
+
+.orangeT {
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+}
+
+.detailsFlash {
+    max-height: 500px;
+    overflow-y: auto;
+    text-align: center;
+    margin-right: 80px;
+}

@@ -1,0 +1,17 @@
+.storyCard {
+    margin-top: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+    font-size: 1.2sem;
+}
+
+.textColor {
+
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: orange;
+}

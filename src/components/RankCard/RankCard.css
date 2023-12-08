@@ -1,0 +1,41 @@
+.linkedTitle {
+    color: orange !important;
+    text-decoration: none !important;
+    font-size: 1.8em;
+    margin-bottom: 40px !important;
+}
+
+.title {
+    font-size: x-large !important;
+    color: gray;
+    text-align: center !important;
+    margin-top: 0 !important;
+}
+
+.rank {
+    margin: 20px;
+    padding: 40px;
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+    border: 2px solid orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.rank p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: start;
+}
+
+.buttonLike {
+    font-size: 1.5em !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin: auto !important;
+    background-color: orange !important;
+    border: 1px solid gray !important;
+}
