@@ -60,7 +60,7 @@ function StoryDetailsPage() {
                                     </ListGroup>
 
                                     <Card.Body>
-                                        {isAdmin || loggedUser._id == storyDetails.writer._id && <Link onClick={handleDelete} className="btn btn-outline-danger mr-2" style={{ margin: '20px' }} >Borrar</Link>}
+                                        {isAdmin && <Link onClick={handleDelete} className="btn btn-outline-danger mr-2" style={{ margin: '20px' }} >Borrar</Link>}
                                         <Link className="orangeFlash" to={`/usuarios/detalles/${storyDetails.writer._id}`}>Conoce a {storyDetails.writer.username}</Link>
                                     </Card.Body>
 
