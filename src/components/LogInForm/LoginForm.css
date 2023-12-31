@@ -10,6 +10,9 @@
     transition: background-color 0.3s ease
 }
 
+.custom-form {
+    margin: auto;
+}
 
 .custom-button:hover {
     background-color: #980b3a;

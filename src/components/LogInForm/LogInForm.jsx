@@ -38,7 +38,7 @@ const LogInForm = () => {
 
 
     return (
-        <Form className="custom-form" style={{ marginLeft: '500px' }} onSubmit={handleFormSubmit}>
+        <Form className="custom-form" onSubmit={handleFormSubmit}>
             <Form.Group className="mb-3" as={Col} md={{ offset: 3, span: 6 }} controlId="email">
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" value={loginData.email} onChange={handleInputChange} name="email" className="custom-input" />

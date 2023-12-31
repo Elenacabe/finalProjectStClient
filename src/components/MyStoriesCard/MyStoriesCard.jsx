@@ -37,12 +37,13 @@ const MyStoriesCard = () => {
 
                 myStoryList.map((u) => {
                     return (
-
                         <Col key={u._id}>
-                            <div className="eachCard" >
+                            <div className='cardNew' >
+
                                 <h1 className="textColor titulo">{u.title}</h1>
                                 <p>{u.story.slice(0, 30)}...</p>
                                 <Link className="textColor" to={`/microrrelatos/detalles/${u._id}`}>Detalles</Link>
+
                             </div>
                         </Col>)
                 })
